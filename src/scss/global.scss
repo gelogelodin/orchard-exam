@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+$body-background-color: #0E1414;
+
+$global-font-color: #ffffff;
+$global-font-family: "Open Sans", sans-serif;
+
+$color-red: #cf1430;
+
+.module-title{
+    text-transform: uppercase;
+    font-size: 27px;
+    font-weight: 300;
+    text-align: left;
+    line-height: 33px;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+    border-bottom:  1px solid #fff;
+}
+
+.module-description{
+    font-weight: 300;
+    font-size: 19px;
+    line-height: 30px;
+    text-align: left;
+    margin-bottom: 30px;
+}
