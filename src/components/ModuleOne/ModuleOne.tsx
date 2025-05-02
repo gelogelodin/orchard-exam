@@ -1,4 +1,3 @@
-import { useState } from 'react'
 import { Container, Row, Col, Image } from 'react-bootstrap'
 import Food1Image from '../../assets/images/food-1.png'
 import Food2Image from '../../assets/images/food-2.png'

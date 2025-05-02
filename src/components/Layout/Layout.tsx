@@ -1,4 +1,3 @@
-import { useState } from 'react'
 import ModuleOne from '../ModuleOne/ModuleOne';
 import ModuleTwo from '../ModuleTwo/ModuleTwo';
 import './Layout.scss'
