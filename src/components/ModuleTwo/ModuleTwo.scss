@@ -7,7 +7,13 @@
 }
 
 .color-image{
+    transition: 0.2s ease-out all;
     height: 300px;
+    cursor: pointer;
+
+    &:hover{
+        transform: scale(105%);
+    }
 }
 
 .color-title{
