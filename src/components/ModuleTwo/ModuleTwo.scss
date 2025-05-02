@@ -15,3 +15,36 @@
     margin: 0 auto;
     text-align: center;
 }
+
+@media only screen and (max-width: 1200px){
+}
+
+@media only screen and (max-width: 1400px){
+    .color-image{
+        height: 280px;
+    }
+}
+
+@media only screen and (max-width: 1200px){
+    .color-image{
+        height: 230px;
+    }
+}
+
+@media only screen and (max-width: 991px){
+    .color-image{
+        height: 170px;
+    }
+}
+
+@media only screen and (max-width: 768px){
+
+    .module-two-container{
+        height:100%;
+    }
+
+    .color-image{
+        margin: 0 auto;
+        display: block;
+    }
+}

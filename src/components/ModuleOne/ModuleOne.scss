@@ -41,3 +41,71 @@
     font-weight: 700;
     font-size: 19px;
 }
+
+@media only screen and (max-width: 1400px){
+    .full-height{
+        max-height: 550px;
+    }
+
+    .half-height{
+        max-height: 270px;
+    }
+}
+
+@media only screen and (max-width: 1200px){
+    .full-height{
+        max-height: 450px;
+    }
+
+    .half-height{
+        max-height: 220px;
+    }
+    
+    .small-title{
+        margin-bottom: 10px;
+    }
+
+    .reminder{
+        font-size: 15px;
+    }
+}
+
+@media only screen and (max-width: 991px){
+    .full-height{
+        max-height: 320px;
+    }
+
+    .half-height{
+        max-height: 160px;
+    }
+}
+
+@media only screen and (max-width: 768px){
+    .no-padding-left{
+        padding-left: 10px !important;
+    }
+    
+    .no-padding-right{
+        padding-right: 10px !important;
+    }
+
+    .full-height, .half-height{
+        margin-bottom: 15px;
+        object-fit: contain;
+        margin: 0 auto;
+        display: block;
+    }
+
+    .full-height{
+        max-height: 450px;
+    }
+
+    .half-height{
+        max-height: 220px;
+    }
+
+    .module-one-container{
+        height:100%;
+        margin-bottom: 100px;
+    }
+}
